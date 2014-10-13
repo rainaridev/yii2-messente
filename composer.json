@@ -1,0 +1,30 @@
+{
+    "name": "netpro9/yii2-messente",
+    "description": "A Yii2 component for working with TurboSMS.ua SOAP service",
+    "homepage": "https://github.com/netpro9/yii2-messente",
+    "keywords": ["yii2", "sms", "messente", "soap"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/netpro9/yii2-messente/issues",
+        "source": "https://github.com/netpro9/yii2-messente"
+    },
+    "authors": [
+        {
+            "name": "Rainari Argel",
+            "email": "info@netpro.ee",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "ext-soap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "netpro9\\y2messente\\": ""
+        }
+    }
+}
